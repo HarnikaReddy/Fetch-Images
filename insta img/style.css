@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding: 35px;
+}
+.navbar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* .navbar button{
+   
+
+} */
+.search{
+    width:max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background-color: #f6f6f6;
+
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'lexend',sans-serif;
+    color:#333333;
+    margin-left: 14px;
+    outline:none;
+    border:none;
+    background: transparent;
+}
+
+.navbar i{
+    width: 20px;
+    height: auto;
+}
+.navbar h2{
+    font-size: 50px;
+}
+.navbar a img{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+
+/* main section */
+
+.main{
+    width:80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-align: center;
+    padding-top: 80px;
+    gap:250px;
+}
+.main .profile{
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main .profile img{
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+   padding: 20px;
+}
+.main .section{
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+   
+    /* padding-right:20px;
+    float:right; */
+}
+.main .section .content{
+    display: flex;
+    justify-content: center;
+    /* -ms-flex-align: center; */
+    flex-direction: row;
+    gap:40px;
+    /* padding-right: 20px; */
+    margin-top: 25px;
+}
+.main .section .content h2{
+    font-size: 25px;
+    color:#334;
+}
+.main .section .content button{
+    width:90px;
+    height:30px;
+    background-color: #f6f6f6;
+    outline: none;
+    border:none;
+}
+.main .section .content .icon{
+    width:100px;
+    height:auto;
+}
+
+.main .section .followers{
+    /* margin-top: 30px;
+    margin-left: 20px; */
+    width:230px;
+    height:auto;
+    border-radius: 50%;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:60px;
+    margin-top: 20px;
+}
+.main .section .followers a{
+    width:20px;
+    /* float:right; */
+    font-size: 16px;
+    /* margin-top: -55px;
+    margin-right: 190px; */
+    cursor:pointer;
+}
+.main .section .followers a1{
+    width:20px;
+    float:right;
+    font-size: 16px;
+    /* margin-top: -55px;
+    margin-right: 100px; */
+    cursor:pointer;
+}
+.main .section .followers a2{
+    width:20px;
+    float:right;
+    font-size: 16px;
+    /* margin-top: -55px;
+    margin-right: 10px; */
+    cursor:pointer;
+}
+.main .section .bio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.main .section .bio h2{
+    color: #334;
+}
+
+
+/* image section */
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+}
+.image h1{
+    color:#334;
+    font-size: 35px;
+}
+
+#image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#image-container img{
+    width:300px;
+    height:300px;
+}
